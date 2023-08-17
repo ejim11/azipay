@@ -5,6 +5,7 @@ export default {
     colors: {
       "color-green": "rgba(17, 69, 59, 1)",
       "color-white": "rgba(255, 255, 255, 1)",
+      "color-grey": "rgba(242, 241, 241, 1)",
       "color-gold": "rgba(180, 165, 114, 1)",
       "color-red": "rgba(234, 78, 75, 1)",
       "color-black": {

@@ -52,7 +52,7 @@ function MainNavigation(): JSX.Element {
     }
 
     return (
-        <header className={"flex items-center h-[8rem] px-[19rem] w-full"}>
+        <header className={"flex items-center h-[8rem] px-[13rem] w-full"}>
             <img src={logo} alt={"logo"} onClick={navigateToHome} className={"cursor-pointer"} />
             <nav className={"mx-auto"}>
                 <ul className={"flex items-center "}>
