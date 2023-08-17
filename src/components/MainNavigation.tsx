@@ -43,7 +43,7 @@ function MainNavigation(): JSX.Element {
         {
             to: "/register",
             text: "Register",
-            className: "text-color-white bg-color-green",
+            className: "text-color-white bg-color-green-1",
         },
     ]
 

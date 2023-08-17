@@ -3,8 +3,6 @@ export default {
   content: ["./src/**/*.{js,ts,tsx}"],
   theme: {
     colors: {
-      "color-green": "rgba(17, 69, 59, 1)",
-      "color-light-green": "#F0F7EB",
       "color-white": "rgba(255, 255, 255, 1)",
       "color-grey": "rgba(242, 241, 241, 1)",
       "color-gold": "rgba(180, 165, 114, 1)",
@@ -12,6 +10,12 @@ export default {
       "color-black": {
         1: "rgba(81, 82, 81, 1)",
         2: "rgba(41, 42, 41, 1)",
+      },
+      "color-green": {
+        1: "rgba(17, 69, 59, 1)",
+        2: "#F0F7EB",
+        3: "rgba(217, 235, 205, 1)",
+        4: "rgba(240, 247, 235, 1)",
       },
     },
     extend: {

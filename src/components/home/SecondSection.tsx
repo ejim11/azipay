@@ -33,8 +33,8 @@ function SecondHomeSection(): JSX.Element {
     ]
 
     return (
-        <section className={"bg-color-light-green py-[10rem]"}>
-            <h2 className={"text-center text-color-green text-[6.4rem] font-medium"}>
+        <section className={"bg-color-green-2 py-[10rem]"}>
+            <h2 className={"text-center text-color-green-1 text-[6.4rem] font-medium"}>
                 For Individuals and Businesses
             </h2>
             <p className={"text-center text-[2rem] text-color-black-2"}>

@@ -36,7 +36,7 @@ function FirstHomeSection(): JSX.Element {
             <div className={"w-[40%]"}>
                 <p className={"text-[6.4rem] font-medium text-color-black-2"}>
                     Run your
-                    <span className={"text-color-green"}> payroll </span>
+                    <span className={"text-color-green-1"}> payroll </span>
                     <span className={"text-color-gold"}>easily</span> in
                     <span className={"text-color-red"}> seconds</span>
                 </p>
