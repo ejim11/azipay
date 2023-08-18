@@ -1,20 +1,53 @@
 import InputComponent from "./InputComponent.tsx"
+import { useState } from "react"
 
 function IndividualForm(): JSX.Element {
+    const [firstNameval, setFirstNameVal] = useState<string>("")
+    const [lastNameval, setLastNameVal] = useState<string>("")
+    const [emailval, setEmailVal] = useState<string>("")
+    const [jobTitleval, setJobTitleVal] = useState<string>("")
+    const [companySizeval, setCompanySizeVal] = useState<string>("")
+
+    const submitFormHandler = (): void => {
+        console.log(firstNameval, lastNameval, emailval, jobTitleval, companySizeval)
+    }
+
     return (
-        <form>
+        <form onSubmit={submitFormHandler}>
             <InputComponent
                 inputName={"first-name"}
                 placeholder={"First Name"}
                 inputType={"text"}
+                value={firstNameval}
+                setValue={setFirstNameVal}
             />
-            <InputComponent inputName={"last-name"} placeholder={"Last Name"} inputType={"text"} />
-            <InputComponent inputName={"email"} placeholder={"Email"} inputType={"email"} />
-            <InputComponent inputName={"job-title"} placeholder={"Job Title"} inputType={"text"} />
+            <InputComponent
+                inputName={"last-name"}
+                placeholder={"Last Name"}
+                inputType={"text"}
+                value={lastNameval}
+                setValue={setLastNameVal}
+            />
+            <InputComponent
+                inputName={"email"}
+                placeholder={"Email"}
+                inputType={"email"}
+                value={emailval}
+                setValue={setEmailVal}
+            />
+            <InputComponent
+                inputName={"job-title"}
+                placeholder={"Job Title"}
+                inputType={"text"}
+                value={jobTitleval}
+                setValue={setJobTitleVal}
+            />
             <InputComponent
                 inputName={"company size"}
                 placeholder={"Company Size"}
                 inputType={"text"}
+                value={companySizeval}
+                setValue={setCompanySizeVal}
             />
             <button
                 type={"submit"}

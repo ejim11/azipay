@@ -3,6 +3,8 @@ export default {
   content: ["./src/**/*.{js,ts,tsx}"],
   theme: {
     colors: {
+      "color-curentColor": "currentColor",
+      "color-transparent": "transparent",
       "color-white": "rgba(255, 255, 255, 1)",
       "color-grey": "rgba(242, 241, 241, 1)",
       "color-gold": "rgba(180, 165, 114, 1)",
