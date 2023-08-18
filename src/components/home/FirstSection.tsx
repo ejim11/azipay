@@ -46,7 +46,7 @@ function FirstHomeSection(): JSX.Element {
                 </p>
                 <button
                     className={
-                        "py-[1.6rem] px-[3.6rem] rounded-[3.2rem] bg-color-green text-color-white mt-[2.4rem]"
+                        "py-[1.6rem] px-[3.6rem] rounded-[3.2rem] bg-color-green-1 text-color-white mt-[2.4rem]"
                     }
                 >
                     Start Using Free, Forever
@@ -59,7 +59,7 @@ function FirstHomeSection(): JSX.Element {
                                 key={i}
                                 href={"https://www.google.com"}
                                 className={
-                                    "flex p-[1.2rem] rounded-[.8rem] shadow-lg mr-[1.5rem] last:mr-0"
+                                    "flex p-[1.2rem] rounded-[.8rem] shadow-lg mr-[1.5rem] last:mr-0 items-center"
                                 }
                             >
                                 <span
@@ -79,7 +79,7 @@ function FirstHomeSection(): JSX.Element {
                 </div>
             </div>
             <div className={"relative"}>
-                <div className={"block w-[67rem] h-[67rem] rounded-full bg-color-green"}></div>
+                <div className={"block w-[67rem] h-[67rem] rounded-full bg-color-green-1"}></div>
                 <img
                     src={desktopImg1}
                     alt={"desktop-img-1"}

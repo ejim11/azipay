@@ -7,6 +7,7 @@ export default {
       "color-grey": "rgba(242, 241, 241, 1)",
       "color-gold": "rgba(180, 165, 114, 1)",
       "color-red": "rgba(234, 78, 75, 1)",
+      "color-orange": "rgba(234, 78, 75, .2)",
       "color-black": {
         1: "rgba(81, 82, 81, 1)",
         2: "rgba(41, 42, 41, 1)",
