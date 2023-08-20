@@ -26,6 +26,9 @@ export default {
         "info-data":
           "radial-gradient(50% 50.00% at 50% 50.00%, rgba(217, 235, 205, 0.14) 0%, rgba(217, 235, 205, 0.03) 100%), #11453B",
       },
+      backgroundImage: {
+        "login-img": "url('/src/assets/loginimg.jpeg')",
+      },
     },
   },
   plugins: [],

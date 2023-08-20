@@ -5,6 +5,8 @@ import Individual from "./pages/Individual.tsx"
 import Business from "./pages/Business.tsx"
 import Pricing from "./pages/Pricing.tsx"
 import SetYourPayroll from "./pages/SetYourPayroll.tsx"
+import Login from "./pages/Login.tsx"
+import Dashboard from "./pages/Dashboard.tsx"
 
 function App(): JSX.Element {
     const router = createBrowserRouter([
@@ -33,6 +35,14 @@ function App(): JSX.Element {
                     element: <SetYourPayroll />,
                 },
             ],
+        },
+        {
+            path: "login",
+            element: <Login />,
+        },
+        {
+            path: "dashboard",
+            element: <Dashboard />,
         },
     ])
 

@@ -36,7 +36,7 @@ function MainNavigation(): JSX.Element {
 
     const authBtns: AuthBtn[] = [
         {
-            to: "/log-in",
+            to: "login",
             text: "log in",
             className: "text-color-green bg-color-white mr-[2.4rem]",
         },
