@@ -1,12 +1,17 @@
 import InputComponent from "./InputComponent.tsx"
 import { useState } from "react"
+import { useNavigate } from "react-router"
+import { NavigateFunction } from "react-router-dom"
 
 function LoginForm(): JSX.Element {
+    const navigate: NavigateFunction = useNavigate()
+
     const [emailVal, setEmailVal] = useState<string>("")
     const [passwordval, setPasswordval] = useState<string>("")
 
     const loginFormHandler = (): void => {
         console.log(emailVal, passwordval)
+        navigate("/dashboard")
     }
 
     return (

@@ -7,6 +7,7 @@ import Pricing from "./pages/Pricing.tsx"
 import SetYourPayroll from "./pages/SetYourPayroll.tsx"
 import Login from "./pages/Login.tsx"
 import Dashboard from "./pages/Dashboard.tsx"
+import DahboardHome from "./pages/dashboard-pages/DahboardHome.tsx"
 
 function App(): JSX.Element {
     const router = createBrowserRouter([
@@ -43,6 +44,37 @@ function App(): JSX.Element {
         {
             path: "dashboard",
             element: <Dashboard />,
+            children: [
+                {
+                    path: "",
+                    element: <DahboardHome />,
+                },
+                {
+                    path: "wallet",
+                    element: "",
+                },
+                {
+                    path: "employee-management",
+                },
+                {
+                    path: "payroll",
+                },
+                {
+                    path: "compliance",
+                },
+                {
+                    path: "quickloan",
+                },
+                {
+                    path: "book-keeping",
+                },
+                {
+                    path: "support",
+                },
+                {
+                    path: "settings",
+                },
+            ],
         },
     ])
 
